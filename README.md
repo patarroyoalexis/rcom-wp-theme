@@ -1,4 +1,4 @@
-# rcom-wp-theme
+# Tema Wordpress para la empresa RCom Consultores
 
 Este es un tema desarrollado para la empresa rcom consultores con administración en WordPress.
 
