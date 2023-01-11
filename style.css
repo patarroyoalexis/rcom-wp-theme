@@ -1,0 +1,57 @@
+/*
+Theme Name: Tema Rcom Consultores
+Theme URI: https://github.com/patarroyoalexis
+Author: Alexis Patarroyo
+Author URI: https://github.com/patarroyoalexis
+Description: Tema desarrollado únicamente para uso de Rcom Consultores, el tema es editable en su gran mayoría para mostrar una identidad corporativa fuerte y fresca.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: rcom
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.menu-item-has-children {
+    position: relative;
+    
+  }
+  
+  .menu-item-has-children > .sub-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding: 0.5em 0 0.5em 1em;
+    list-style-type: none;
+    background-color: white;
+    border-width: 3px;
+    border-style: solid none none none;
+    border-color: #008cba;
+    width: 300px;
+    margin: 0 10px 0 0;
+    animation-duration: 0.5s; 
+    animation-name: fadein;
+    animation-timing-function: ease;
+    box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item-has-children:hover > .sub-menu {
+    display: block;
+  }
+
+  @keyframes fadein {
+    0%{
+        transform: translateX(10px);
+        opacity: 0;
+        
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+        
+    }
+
+}
